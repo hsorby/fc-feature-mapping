@@ -1,13 +1,5 @@
 # FC Flatmap Feature Mapping Store
 
-A temporary repository to support mapping FC map features to CellML model components and variables
-
-Here is a clean, professional update for your README that clearly outlines the contribution process and the strict data requirements.
-
----
-
-# FC Flatmap Feature Mapping Store
-
 A temporary repository to support mapping FC map features to CellML model components and variables.
 
 ## Contributing a New Map
