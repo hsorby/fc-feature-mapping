@@ -1,0 +1,496 @@
+{
+    "@context": {
+        "@vocab": "https://schema.org/",
+        "uberon": "http://purl.obolibrary.org/obo/UBERON_",
+        "chebi": "http://purl.obolibrary.org/obo/CHEBI_",
+        "loinc": "https://loinc.org/",
+        "ncit": "http://purl.obolibrary.org/obo/NCIT_",
+        "trial": "http://my-clinical-trial.org/vocabulary/",
+        "anatomical_site": {
+            "@id": "trial:hasAnatomy",
+            "@type": "@id"
+        },
+        "na_flux": {
+            "@id": "trial:hasNaFlux",
+            "@type": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_013_signal_sine",
+            "@type": "Dataset",
+            "name": "Trial - obs_013",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_013_signal_sine_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_013_signal_sine.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_015_noise_offset",
+            "@type": "Dataset",
+            "name": "Trial - obs_015",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_015_noise_offset_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_015_noise_offset.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_011_noise_offset",
+            "@type": "Dataset",
+            "name": "Trial - obs_011",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_011_noise_offset_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_011_noise_offset.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_008_cumul_log",
+            "@type": "Dataset",
+            "name": "Trial - obs_008",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_008_cumul_log_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_008_cumul_log.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_002_decay_exp",
+            "@type": "Dataset",
+            "name": "Trial - obs_002",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_002_decay_exp_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_002_decay_exp.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_012_cumul_log",
+            "@type": "Dataset",
+            "name": "Trial - obs_012",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_012_cumul_log_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_012_cumul_log.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_007_noise_offset",
+            "@type": "Dataset",
+            "name": "Trial - obs_007",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_007_noise_offset_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_007_noise_offset.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_005_signal_sine",
+            "@type": "Dataset",
+            "name": "Trial - obs_005",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_005_signal_sine_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_005_signal_sine.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_003_noise_offset",
+            "@type": "Dataset",
+            "name": "Trial - obs_003",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_003_noise_offset_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_003_noise_offset.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_006_decay_exp",
+            "@type": "Dataset",
+            "name": "Trial - obs_006",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_006_decay_exp_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_006_decay_exp.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_016_cumul_log",
+            "@type": "Dataset",
+            "name": "Trial - obs_016",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_016_cumul_log_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_016_cumul_log.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_009_signal_sine",
+            "@type": "Dataset",
+            "name": "Trial - obs_009",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_009_signal_sine_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_009_signal_sine.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_017_signal_sine",
+            "@type": "Dataset",
+            "name": "Trial - obs_017",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_017_signal_sine_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_017_signal_sine.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_004_cumul_log",
+            "@type": "Dataset",
+            "name": "Trial - obs_004",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_004_cumul_log_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_004_cumul_log.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_014_decay_exp",
+            "@type": "Dataset",
+            "name": "Trial - obs_014",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_014_decay_exp_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_014_decay_exp.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_001_signal_sine",
+            "@type": "Dataset",
+            "name": "Trial - obs_001",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_001_signal_sine_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_001_signal_sine.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        },
+        {
+            "@id": "http://abi.auckland.ac.nz/data/obs_010_decay_exp",
+            "@type": "Dataset",
+            "name": "Trial - obs_010",
+            "description": "Blood pressure measurements at Na flux rate of 3",
+            "thumbnailUrl": "file://./previews/previews/obs_010_decay_exp_thumb.png",
+            "distribution": {
+                "@type": "DataDownload",
+                "contentUrl": "https://figshare.com/s/be621a5e321b57288733/obs_010_decay_exp.csv",
+                "encodingFormat": "text/csv"
+            },
+            "anatomical_site": "uberon:0001555",
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Time",
+                    "unitCode": "SEC",
+                    "propertyID": "ncit:C25664"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "name": "Blood Pressure",
+                    "unitCode": "mmHg",
+                    "propertyID": "loinc:8480-6"
+                }
+            ],
+            "na_flux": 3
+        }
+    ]
+}
